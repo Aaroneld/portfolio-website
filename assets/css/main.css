@@ -189,7 +189,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			border-bottom: solid 1px sienna;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1543,7 +1546,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(241, 233, 210);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1589,11 +1592,11 @@ input, select, textarea {
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: sienna;
 				}
 
 				#main article .close:active:before {
-					background-color: rgba(255, 255, 255, 0.175);
+					background-color: sienna;
 				}
 
 		@media screen and (max-width: 736px) {
@@ -1656,3 +1659,58 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+		/* Aaron's added CSS styling */
+
+		
+		#intro .image {
+
+			height: 40%;
+		}
+
+		#about .image {
+
+			height: 40%;
+		}
+
+
+		.image img {
+
+			height: 100%;
+			object-fit: cover;
+			
+		}
+
+		#work .image {
+
+			background-color: white;
+		}
+
+
+		#work a {
+
+			display: block;
+		}
+
+		article p {
+
+			color: sienna;
+		}
+
+		article h2 {
+
+			color: sienna;
+		}
+
+		#about article {
+
+			height: 60%;
+		}
+
+		
+		#intro article {
+
+			height: 20%;
+		}
+
